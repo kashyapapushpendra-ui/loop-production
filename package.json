@@ -1,0 +1,53 @@
+{
+  "name": "ai-loop",
+  "version": "1.0.0",
+  "description": "AI Loop - Production Ready Hindi Storytelling to Animation Video Generator with Self-Healing and Multi-Language Support",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,css,html,md}\"",
+    "build": "echo 'SPA - no build step required'",
+    "health-check": "node utils/health-check.js",
+    "docs": "echo 'See /docs for documentation'"
+  },
+  "keywords": [
+    "video-generation",
+    "animation",
+    "storytelling",
+    "hindi",
+    "multi-language",
+    "ai",
+    "claude",
+    "video-encoder",
+    "self-healing",
+    "production-ready"
+  ],
+  "author": "AI Loop Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "mp4-muxer": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashyapapushpendra-ui/loop-production.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kashyapapushpendra-ui/loop-production/issues"
+  },
+  "homepage": "https://github.com/kashyapapushpendra-ui/loop-production#readme"
+}
